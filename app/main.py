@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from app.api import auth, game, leaderboard, admin
 from app.database import init_db
 from app.core.config import settings
+from fastapi.middleware.cors import CORSMiddleware
 
 
 # 1. Define the lifespan manager
@@ -31,7 +32,17 @@ app.include_router(game.router, prefix="/game", tags=["game"])
 app.include_router(leaderboard.router, prefix="/leaderboard", tags=["leaderboard"])
 app.include_router(admin.router, prefix="/admin", tags=["admin"])
 
+origins = [
+    "*"
+]
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins, # Use [""] to allow all for testing
+    allow_credentials=True,
+    allow_methods=[""],
+    allow_headers=["*"],
+)
 @app.get("/")
 def root():
     return {"message": "Welcome to the Game Backend API"}
