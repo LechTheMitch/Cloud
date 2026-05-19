@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7e87df0fe9b4f4a8a11c72920ffa9e, type: 3}
+  m_Name: Clue_WomanGaze
+  m_EditorClassIdentifier: Assembly-CSharp::ClueData
+  clueID: clue_woman_gaze
+  clueName: The Woman's Gaze
+  description: A woman in the neighboring apartment stared directly at you. Her eyes
+    were filled with terror.
+  icon: {fileID: 0}
+  discoveredOnLoop: 0
+  isCritical: 1
+  hintText: She looked at you like she already knew what would happen.

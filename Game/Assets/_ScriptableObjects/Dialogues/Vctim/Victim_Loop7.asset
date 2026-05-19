@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a96f2d6637376d4086a42fb94f8f855, type: 3}
+  m_Name: Victim_Loop7
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLine
+  npcID: victim
+  loopIndex: 7
+  lines:
+  - I remember your hands.
+  - ...
+  - I remember your hands around my throat.
+  - "And I remember thinking \u2014 this isn't him."
+  - This can't be him.
+  requiresClue: 0
+  requiredClueID: 

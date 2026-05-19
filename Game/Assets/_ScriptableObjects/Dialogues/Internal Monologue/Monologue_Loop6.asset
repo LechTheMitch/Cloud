@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a96f2d6637376d4086a42fb94f8f855, type: 3}
+  m_Name: Monologue_Loop6
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLine
+  npcID: protagonist_thought
+  loopIndex: 6
+  lines:
+  - I keep hearing her say my name.
+  - The way she said it at the end.
+  - Like she was asking a question.
+  requiresClue: 0
+  requiredClueID: 

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - player
+  - Water
+  - UI
+  - Ground
+  - Walls
+  - Interactable
+  - NPC
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3643235533
+    locked: 0
+  - name: Tilemap_Floor
+    uniqueID: 2466328521
+    locked: 0
+  - name: Tilemap_Walls
+    uniqueID: 3678821439
+    locked: 0
+  - name: Tilemap_Furniture
+    uniqueID: 1315307737
+    locked: 0
+  - name: Tilemap_Objects
+    uniqueID: 3833734101
+    locked: 0
+  - name: NPC
+    uniqueID: 283644689
+    locked: 0
+  - name: Tilemap_Overlay
+    uniqueID: 1484675277
+    locked: 0
+  - name: Player
+    uniqueID: 3752405053
+    locked: 0
+  - name: UI
+    uniqueID: 3222738085
+    locked: 0
+  m_RenderingLayers:
+  - Default

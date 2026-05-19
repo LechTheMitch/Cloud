@@ -32,16 +32,16 @@ app.include_router(game.router, prefix="/game", tags=["game"])
 app.include_router(leaderboard.router, prefix="/leaderboard", tags=["leaderboard"])
 app.include_router(admin.router, prefix="/admin", tags=["admin"])
 
-origins = [
+allow_origins = [
     "*"
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins, # Use [""] to allow all for testing
-    allow_credentials=True,
-    allow_methods=[""],
-    allow_headers=["*"],
+    allow_origins=["*"],      # Allows all origins
+    allow_credentials=False,  # Must be False when using ["*"]
+    allow_methods=["*"],      # Allows all methods
+    allow_headers=["*"],      # Allows all headers
 )
 @app.get("/")
 def root():
